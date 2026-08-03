@@ -173,7 +173,7 @@ btnCakeNext.addEventListener("click", ()=> goToScene("scene-gift"));
 const giftWrap = document.getElementById("giftWrap");
 const giftHint = document.getElementById("giftHint");
 const btnGiftNext = document.getElementById("btnGiftNext");
-
+const giftPhotoFrame = document.getElementById("giftPhotoFrame");
 giftWrap.querySelector(".gift").addEventListener("click", function(){
   this.classList.add("is-open");
   giftHint.style.display = "none";
