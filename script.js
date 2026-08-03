@@ -144,12 +144,12 @@ const photoImg = document.getElementById("photoImg");
 const photoPlaceholder = document.getElementById("photoPlaceholder");
 const testImg = new Image();
 testImg.onload = ()=>{
-  photoImg.src = "Assets/photo.jpg";
+  photoImg.src = "Asset/photo.jpg";
   photoImg.classList.add("has-src");
   photoPlaceholder.style.display = "none";
 };
 testImg.onerror = ()=>{ /* keep placeholder */ };
-testImg.src = "Assets/photo.jpg";
+testImg.src = "Asset/photo.jpg";
 
 /* =========================================================
    CAKE SCENE
